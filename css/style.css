@@ -8,6 +8,18 @@
 body {
     font-family: 'Prompt', sans-serif;
     font-size: 16px;
+    color: #232f3d;
+    text-align: justify;
+}
+
+.title {
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 30px 0;
+    border-bottom: 3px solid #EF7F1A;
 }
 
 /*Belka z logo i menu*/
@@ -71,13 +83,9 @@ header {
     background-color: #4e6075;
 }
 
-.menu li a {
+.menu a {
     text-decoration: none;
     color: white;
-}
-
-.menu li a:hover {
-    text-decoration: none;
 }
 
 /* Główne zdjęcie */
@@ -90,4 +98,48 @@ header {
    -moz-background-size: cover;
    background-size: cover;
    -o-background-size: cover;
+}
+
+/* Sekcja "O NAS" */
+.about {
+    padding-bottom: 30px;
+}
+
+/* Stopka */
+footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #3B4F66;
+    line-height: 100px;
+    color: white;
+}
+
+footer p {
+    text-align: left;
+}
+
+footer p span {
+    text-transform: uppercase;
+}
+
+.fb, .tw, .inst {
+    margin: 25px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.fb {
+    background-image: url(../img/media/fb.jpg);
+}
+
+.tw {
+    background-image: url(../img/media/twit.jpg);
+}
+
+.inst {
+    background-image: url(../img/media/insta.jpg);
 }
