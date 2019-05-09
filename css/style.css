@@ -8,7 +8,7 @@
 body {
     font-family: 'Prompt', sans-serif;
     font-size: 16px;
-    color: #232f3d;
+    color: #2f2f2f;
     text-align: justify;
 }
 
@@ -24,11 +24,11 @@ body {
 
 /*Belka z logo i menu*/
 header {
-    background-color: #3B4F66;
-    width: 100%;
-    height: 120px;
+    background-color: #2f2f2f;
     box-shadow: 0 1px 5px 5px rgba(0,0,0,.5);
     -webkit-box-shadow: 0 1px 5px 5px rgba(0,0,0,.5);
+    width: 100%;
+    height: 120px;
     position: fixed;
     right: 0;
     top: 0;
@@ -80,7 +80,7 @@ header {
 }
 
 .menu li:hover {
-    background-color: #4e6075;
+    background-color: #585858;
 }
 
 .menu a {
@@ -92,8 +92,7 @@ header {
 .main {
    width: 100%;
    height: 100vh;
-   margin-top: 120px;
-   background: url(../img/portret-konia.jpg) no-repeat center center;
+   background: url(../img/konie-w-ruchu.jpg) no-repeat center center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    background-size: cover;
@@ -109,13 +108,13 @@ header {
 footer {
     width: 100%;
     min-height: 100px;
-    background-color: #3B4F66;
+    background-color: #2f2f2f;
     line-height: 100px;
     color: white;
 }
 
 footer p {
-    text-align: left;
+    text-align: center;
 }
 
 footer p span {
