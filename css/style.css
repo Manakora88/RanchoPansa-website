@@ -101,7 +101,22 @@ header {
 
 /* Sekcja "O NAS" */
 .about {
+    padding-top: 100px;
     padding-bottom: 30px;
+}
+
+/* Sekcja "CENNIK" */
+.offer-type {
+    padding: 20px 0 10px 0;
+}
+
+.price span {
+  font-weight: 700;
+}
+
+.price a {
+  color: #EF7F1A;
+  text-decoration: none;
 }
 
 /* Stopka */
