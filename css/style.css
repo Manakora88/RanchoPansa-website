@@ -106,11 +106,11 @@ header {
 
 /* Sekcja "OFERTA" */
 .back:nth-child(2n+1) {
-  background-color: #eaeaea;
+    background-color: #eaeaea;
 }
 
 .back:first-child {
-  background-color: white;
+    background-color: white;
 }
 
 .title2 {
@@ -126,15 +126,38 @@ header {
     list-style-type: square;
 }
 
+.offer-pic {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offer1 {
+    background-image: url(../img/nauka-jazdy.jpg);
+}
+
+.offer2 {
+    background-image: url(../img/trening-mlodego-konia.jpg);
+}
+
+.offer3 {
+    background-image: url(../img/rajd-traperski.jpg);
+}
+
 
 /* Sekcja "CENNIK" */
 .price span {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .price a {
-  color: #EF7F1A;
-  text-decoration: none;
+    color: #EF7F1A;
+    text-decoration: none;
 }
 
 /* Stopka */
