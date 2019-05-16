@@ -102,14 +102,32 @@ header {
 /* Sekcja "O NAS" */
 .about {
     padding-top: 100px;
-    padding-bottom: 30px;
 }
+
+/* Sekcja "OFERTA" */
+.back:nth-child(2n+1) {
+  background-color: #eaeaea;
+}
+
+.back:first-child {
+  background-color: white;
+}
+
+.title2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.offert, .price {
+    padding: 20px 0 40px 0;
+}
+
+.offert ul {
+    list-style-type: square;
+}
+
 
 /* Sekcja "CENNIK" */
-.offer-type {
-    padding: 20px 0 10px 0;
-}
-
 .price span {
   font-weight: 700;
 }
