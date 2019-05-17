@@ -101,7 +101,7 @@ header {
 
 /* Sekcja "O NAS" */
 .about {
-    padding-top: 100px;
+    padding: 100px 0 30px 0;
 }
 
 /* Sekcja "OFERTA" */
@@ -118,23 +118,56 @@ header {
     font-weight: 700;
 }
 
-.offert, .price {
-    padding: 20px 0 30px 0;
+.offerts, .prices {
+    padding-top: 100px;
+}
+
+.offert {
+  padding-top: 20px;
 }
 
 .offert ul {
-    list-style-type: square;
+    list-style-type: none;
+}
+
+.offert a, .price a {
+    color: #EF7F1A;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .offer-pic {
-    width: 100%;
+    width: 350px;
     height: 350px;
     margin: 0 auto;
     vertical-align: middle;
     line-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    -webkit-filter: grayscale(70%);
+    -moz-filter: grayscale(70%);
+    -o-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+
+.offer-pic:hover {
+    filter: grayscale(0%);
+    transition-timing-function: ease-out;
+    transition-duration: 400ms;
+    -webkit-filter: grayscale(0%);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 400ms;
+    -moz-filter: grayscale(0%);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 400ms;
+    -o-filter: grayscale(0%);
+    -o-transition-timing-function: ease-out;
+    -o-transition-duration: 400ms;
+    -ms-filter: grayscale(0%);
+    -ms-transition-timing-function: ease-out;
+    -ms-transition-duration: 400ms;
 }
 
 .offer1 {
@@ -171,13 +204,12 @@ header {
 
 
 /* Sekcja "CENNIK" */
-.price span {
-    font-weight: 700;
+.price {
+    padding: 20px 0 30px 0;
 }
 
-.price a {
-    color: #EF7F1A;
-    text-decoration: none;
+.price span {
+    font-weight: 700;
 }
 
 /* Stopka */
