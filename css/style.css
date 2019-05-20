@@ -77,7 +77,6 @@ header {
     display: inline-block;
     line-height: 120px;
     padding: 0 10px;
-    grid-gap: 0;
 }
 
 .menu li:hover {
