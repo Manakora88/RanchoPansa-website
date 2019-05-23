@@ -127,12 +127,12 @@ header {
 }
 
 .quote p {
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #ef7f1a;
 }
 
 .quote span {
-    font-size: 1.2rem;
+    font-size: 20px;
     color: grey;
 }
 
