@@ -123,17 +123,16 @@ header {
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
-
     text-shadow: 3px 4px 5px #000;
 }
 
 .quote p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ef7f1a;
 }
 
 .quote span {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: grey;
 }
 
